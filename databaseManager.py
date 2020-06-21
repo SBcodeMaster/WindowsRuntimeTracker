@@ -6,7 +6,7 @@ class Database:
     def __init__(self):
 
         try:
-            self.db = sqlite3.connect(r"E:\runtime.db")
+            self.db = sqlite3.connect(r"runtime.db")
         except :
             print("error")
 
