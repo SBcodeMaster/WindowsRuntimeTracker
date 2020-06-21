@@ -8,7 +8,7 @@ import os
 import database
 
 headers = ['Date', 'Time','Status']
-path = r'E:\runtime.csv'
+path = r'runtime.csv'
 file_exists = os.path.isfile(path)
 
 def write_to_csv(paths,data):
